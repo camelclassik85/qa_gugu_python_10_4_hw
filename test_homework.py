@@ -44,7 +44,7 @@ def test_circle():
     """
     r = 23
     # TODO сосчитайте площадь
-    area = math.pi * (r ** 2)
+    area = math.pi * r ** 2
     area1 = math.pi * math.pow(r, 2)
 
     assert area == 1661.9025137490005
